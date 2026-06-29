@@ -1,0 +1,734 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Brisa Admin",
+      "email": "admin@brisamotors.co.ke",
+      "password": "$2a$10$OzzaQJfPvB/x6A/BD9t24.E7mk7aGJnPOL3cx5Riw7QgZiimlJvtK",
+      "phone": null,
+      "role": "admin",
+      "created_at": "2026-06-02T06:04:01.228Z"
+    },
+    {
+      "id": 2,
+      "name": "BRIAN KING'ORI",
+      "email": "ndiritubrian001@gmail.com",
+      "password": "$2a$10$Q/wPg6mqTdmjWR5IqEr2aOpI3jjW21HXcUUBwXAnmQElPCd3v4tfS",
+      "phone": "+254715594628",
+      "role": "client",
+      "created_at": "2026-06-02T11:03:26.897Z"
+    },
+    {
+      "id": 3,
+      "name": "jane wanjiku",
+      "email": "janewanjiku1@gmail.com",
+      "password": "$2a$10$223mduoxcbsVXW/Gtga.Dezu5z3OalUQsKOoDBi4HjXR1dDDv8A2i",
+      "phone": "+254715595544",
+      "role": "client",
+      "created_at": "2026-06-12T08:42:19.353Z"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "price": 1850000,
+      "mileage": 52000,
+      "color": "Pearl White",
+      "engine": "1.8L VVT-i 4-cyl",
+      "hp": 140,
+      "turbo": false,
+      "drive": "FWD",
+      "body": "Sedan",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "doors": 4,
+      "cylinders": 4,
+      "description": "Well maintained, full service history. One careful owner from new.",
+      "images": [
+        "IMGS/car22.jpg"
+      ],
+      "quantity": 3,
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "make": "Toyota",
+      "model": "Hilux",
+      "year": 2019,
+      "price": 3200000,
+      "mileage": 74000,
+      "color": "Silver",
+      "engine": "2.4L Diesel Turbo 4-cyl",
+      "hp": 150,
+      "turbo": true,
+      "drive": "4WD",
+      "body": "Pickup",
+      "transmission": "manual",
+      "fuel_type": "Diesel",
+      "seats": 5,
+      "doors": 4,
+      "cylinders": 4,
+      "description": "4x4 Double Cab with tow bar. Serviced every 5,000km at Toyota Kenya.",
+      "images": [
+        "IMGS/hilux.jpg"
+      ],
+      "quantity": 2,
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "make": "Mazda",
+      "model": "CX-5",
+      "year": 2021,
+      "price": 2700000,
+      "mileage": 38000,
+      "color": "Machine Grey",
+      "engine": "2.0L SKYACTIV-G 4-cyl",
+      "hp": 165,
+      "turbo": false,
+      "drive": "FWD",
+      "body": "SUV",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "doors": 5,
+      "cylinders": 4,
+      "description": "Bose audio, heated seats, i-ACTIVSENSE safety suite.",
+      "images": [
+        "IMGS/mazda.jpg"
+      ],
+      "quantity": 1,
+      "status": "available"
+    },
+    {
+      "id": 4,
+      "make": "kawasaki",
+      "model": "ninja sport",
+      "year": 2018,
+      "price": 3500000,
+      "mileage": 88000,
+      "color": "green",
+      "engine": "2.0L TwinPower Turbo 4-cyl",
+      "hp": 184,
+      "turbo": true,
+      "drive": "RWD",
+      "body": "sport",
+      "transmission": "manual",
+      "fuel_type": "Petrol",
+      "seats": 2,
+      "doors": 0,
+      "cylinders": 4,
+      "description": "navigaton panel, leather seats, HUD. Full BMW service history.",
+      "images": [
+        "IMGS/kawasaki.jpg"
+      ],
+      "quantity": 1,
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "make": "Subaru",
+      "model": "Forester",
+      "year": 2020,
+      "price": 2100000,
+      "mileage": 61000,
+      "color": "Crystal White",
+      "engine": "2.5L BOXER 4-cyl",
+      "hp": 182,
+      "turbo": false,
+      "drive": "AWD",
+      "body": "SUV",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "doors": 5,
+      "cylinders": 4,
+      "description": "EyeSight, Symmetrical AWD, panoramic sunroof.",
+      "images": [
+        "IMGS/subaru.jpg"
+      ],
+      "quantity": 0,
+      "status": "sold_out"
+    },
+    {
+      "id": 6,
+      "make": "Mercedes",
+      "model": "C-Class",
+      "year": 2019,
+      "price": 4200000,
+      "mileage": 55000,
+      "color": "Obsidian Black",
+      "engine": "2.0L EQ Boost Turbo 4-cyl",
+      "hp": 204,
+      "turbo": true,
+      "drive": "RWD",
+      "body": "Sedan",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "doors": 4,
+      "cylinders": 4,
+      "description": "AMG Line, Burmester sound, panoramic roof. Full MBSL service history.",
+      "images": [
+        "IMGS/sclass.jpg"
+      ],
+      "quantity": 1,
+      "status": "available"
+    },
+    {
+      "id": 7,
+      "make": "Honda",
+      "model": "CR-V",
+      "year": 2022,
+      "price": 3100000,
+      "mileage": 22000,
+      "color": "Lunar Silver",
+      "engine": "1.5L VTEC Turbo 4-cyl",
+      "hp": 190,
+      "turbo": true,
+      "drive": "FWD",
+      "body": "SUV",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "doors": 5,
+      "cylinders": 4,
+      "description": "Honda Sensing, hands-free tailgate, wireless CarPlay. Like new.",
+      "images": [
+        "IMGS/car7.jpg"
+      ],
+      "quantity": 2,
+      "status": "available"
+    },
+    {
+      "id": 8,
+      "make": "Nissan",
+      "model": "X-Trail",
+      "year": 2021,
+      "price": 2650000,
+      "mileage": 41000,
+      "color": "Pearl White",
+      "engine": "2.5L DOHC 4-cyl",
+      "hp": 169,
+      "turbo": false,
+      "drive": "4WD",
+      "body": "SUV",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 7,
+      "doors": 5,
+      "cylinders": 4,
+      "description": "7-seater 4x4. ProPILOT assist, Around View Monitor.",
+      "images": [
+        "IMGS/car8.jpg"
+      ],
+      "quantity": 1,
+      "status": "available"
+    },
+    {
+      "id": 9,
+      "make": "Land Rover",
+      "model": "Discovery",
+      "year": 2020,
+      "price": 5800000,
+      "mileage": 67000,
+      "color": "Indus Silver",
+      "engine": "3.0L Td6 Diesel V6",
+      "hp": 258,
+      "turbo": true,
+      "drive": "4WD",
+      "body": "SUV",
+      "transmission": "automatic",
+      "fuel_type": "Diesel",
+      "seats": 7,
+      "doors": 5,
+      "cylinders": 6,
+      "description": "Full spec Discovery, Terrain Response 2, dual panoramic sunroofs.",
+      "images": [
+        "IMGS/rover.jpg"
+      ],
+      "quantity": 7,
+      "status": "available"
+    },
+    {
+      "id": 10,
+      "make": "Audi",
+      "model": "Q5",
+      "year": 2021,
+      "price": 4500000,
+      "mileage": 33000,
+      "color": "Daytona Grey",
+      "engine": "2.0L TFSI Turbo 4-cyl",
+      "hp": 249,
+      "turbo": true,
+      "drive": "AWD",
+      "body": "SUV",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "doors": 5,
+      "cylinders": 4,
+      "description": "Quattro AWD, Bang & Olufsen 3D Sound, Matrix LED headlights.",
+      "images": [
+        "IMGS/car4.jpg"
+      ],
+      "quantity": 1,
+      "status": "available"
+    },
+    {
+      "id": 11,
+      "make": "Kia",
+      "model": "Sportage",
+      "year": 2022,
+      "price": 2400000,
+      "mileage": 18000,
+      "color": "Snow White",
+      "engine": "1.6L T-GDi Turbo 4-cyl",
+      "hp": 177,
+      "turbo": true,
+      "drive": "FWD",
+      "body": "SUV",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "doors": 5,
+      "cylinders": 4,
+      "description": "Smart Sense safety, 10.25\" panoramic display. Low mileage, like new.",
+      "images": [
+        "IMGS/kia.jpg"
+      ],
+      "quantity": 2,
+      "status": "available"
+    },
+    {
+      "id": 12,
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "year": 2021,
+      "price": 3800000,
+      "mileage": 45000,
+      "color": "Reflex Silver",
+      "engine": "1.4L TSI EVO Turbo 4-cyl",
+      "hp": 150,
+      "turbo": true,
+      "drive": "4WD",
+      "body": "SUV",
+      "transmission": "automatic",
+      "fuel_type": "Petrol",
+      "seats": 5,
+      "doors": 5,
+      "cylinders": 4,
+      "description": "4Motion AWD, Digital Cockpit Pro, IQ.DRIVE, panoramic roof.",
+      "images": [
+        "IMGS/tiguan.jpg"
+      ],
+      "quantity": 1,
+      "status": "available"
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "name": "Oil Filter",
+      "part_number": "OF-001",
+      "category": "Engine",
+      "price": 1500,
+      "stock": 46,
+      "compatible_makes": "Toyota,Honda,Mazda",
+      "description": "Standard spin-on oil filter, OEM quality."
+    },
+    {
+      "id": 2,
+      "name": "Brake Pads (Front)",
+      "part_number": "BP-F02",
+      "category": "Brakes",
+      "price": 4500,
+      "stock": 28,
+      "compatible_makes": "Toyota,Subaru",
+      "description": "Ceramic compound, low dust, OEM spec."
+    },
+    {
+      "id": 3,
+      "name": "Air Filter",
+      "part_number": "AF-003",
+      "category": "Engine",
+      "price": 2200,
+      "stock": 39,
+      "compatible_makes": "Toyota,Honda,Nissan",
+      "description": "High-flow OEM equivalent air filter."
+    },
+    {
+      "id": 4,
+      "name": "Alternator Belt",
+      "part_number": "AB-004",
+      "category": "Electrical",
+      "price": 3800,
+      "stock": 20,
+      "compatible_makes": "Toyota,Mazda",
+      "description": "Reinforced V-belt, genuine quality."
+    },
+    {
+      "id": 5,
+      "name": "Shock Absorber (Front)",
+      "part_number": "SA-005",
+      "category": "Suspension",
+      "price": 12000,
+      "stock": 13,
+      "compatible_makes": "Toyota,Honda",
+      "description": "Gas-charged front shock absorber."
+    },
+    {
+      "id": 6,
+      "name": "Radiator",
+      "part_number": "RD-006",
+      "category": "Cooling",
+      "price": 15000,
+      "stock": 0,
+      "compatible_makes": "Toyota,Mazda",
+      "description": "Aluminium core 3-row radiator. OUT OF STOCK."
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "client_id": 2,
+      "appointment_date": "2026-06-21",
+      "time_slot": "12:00",
+      "service_type": "inspection",
+      "car_make": "TOYOTA",
+      "car_model": "HILUX",
+      "car_year": 2019,
+      "car_plate": "KDP123A",
+      "notes": null,
+      "status": "scheduled",
+      "created_at": "2026-06-02T11:21:14.039Z"
+    },
+    {
+      "id": 2,
+      "client_id": 2,
+      "appointment_date": "2026-06-12",
+      "time_slot": "09:00",
+      "service_type": "inspection",
+      "car_make": "TOYOTA",
+      "car_model": "HILUX",
+      "car_year": 2012,
+      "car_plate": "KDP123A",
+      "notes": null,
+      "status": "scheduled",
+      "created_at": "2026-06-11T06:59:01.584Z"
+    },
+    {
+      "id": 3,
+      "client_id": 1,
+      "appointment_date": "2026-06-13",
+      "time_slot": "12:00",
+      "service_type": "other",
+      "car_make": "TOYOTA",
+      "car_model": "HILUX",
+      "car_year": 1990,
+      "car_plate": "KVA 123E",
+      "notes": null,
+      "status": "scheduled",
+      "created_at": "2026-06-12T12:24:31.569Z"
+    },
+    {
+      "id": 4,
+      "client_id": 1,
+      "appointment_date": "2026-06-15",
+      "time_slot": "08:00",
+      "service_type": "other",
+      "car_make": "TOYOTA",
+      "car_model": "HILUX",
+      "car_year": 2021,
+      "car_plate": "KBA 456D",
+      "notes": "Car hire inquiry: Compact Daily Hire. Please confirm availability, hire dates, and pickup details.",
+      "status": "scheduled",
+      "created_at": "2026-06-14T08:31:48.574Z"
+    }
+  ],
+  "repairs": [],
+  "payments": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "payment_type": "part_order",
+      "reference_id": 3,
+      "amount": 2200,
+      "method": "cash",
+      "mpesa_code": null,
+      "status": "completed",
+      "paid_at": "2026-06-02T09:58:12.395Z"
+    },
+    {
+      "id": 2,
+      "client_id": 2,
+      "payment_type": "part_order",
+      "reference_id": 1,
+      "amount": 1500,
+      "method": "cash",
+      "mpesa_code": null,
+      "status": "completed",
+      "paid_at": "2026-06-02T11:26:02.722Z"
+    },
+    {
+      "id": 3,
+      "client_id": 2,
+      "payment_type": "part_order",
+      "reference_id": 5,
+      "amount": 12000,
+      "method": "mpesa",
+      "mpesa_code": "UEM7J4ZCQE",
+      "status": "completed",
+      "paid_at": "2026-06-02T11:26:55.043Z"
+    },
+    {
+      "id": 4,
+      "client_id": 2,
+      "payment_type": "part_order",
+      "reference_id": 1,
+      "amount": 1500,
+      "method": "cash",
+      "mpesa_code": null,
+      "status": "completed",
+      "paid_at": "2026-06-02T11:27:17.197Z"
+    },
+    {
+      "id": 5,
+      "client_id": 2,
+      "payment_type": "part_order",
+      "reference_id": 1,
+      "amount": 1500,
+      "method": "card",
+      "mpesa_code": null,
+      "status": "completed",
+      "paid_at": "2026-06-02T11:27:30.993Z"
+    },
+    {
+      "id": 6,
+      "client_id": 2,
+      "payment_type": "part_order",
+      "reference_id": 1,
+      "amount": 1500,
+      "method": "bank_transfer",
+      "mpesa_code": null,
+      "status": "completed",
+      "paid_at": "2026-06-02T11:27:40.406Z"
+    },
+    {
+      "id": 7,
+      "client_id": 2,
+      "payment_type": "part_order",
+      "reference_id": 2,
+      "amount": 9000,
+      "method": "cash",
+      "mpesa_code": null,
+      "status": "completed",
+      "paid_at": "2026-06-11T06:51:33.913Z"
+    },
+    {
+      "id": 8,
+      "client_id": 2,
+      "payment_type": "part_order",
+      "reference_id": 5,
+      "amount": 12000,
+      "method": "cash",
+      "mpesa_code": null,
+      "status": "completed",
+      "paid_at": "2026-06-12T15:39:48.726Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "invoice_number": "INV-202606-000001",
+      "client_id": 1,
+      "payment_id": 1,
+      "invoice_type": "part_order",
+      "reference_id": 3,
+      "line_items": [
+        {
+          "description": "Air Filter ×1",
+          "qty": 1,
+          "unit_price": 2200,
+          "total": 2200
+        }
+      ],
+      "subtotal": "1896.55",
+      "tax_rate": 16,
+      "tax_amount": "303.45",
+      "total_amount": "2200.00",
+      "status": "paid",
+      "issued_at": "2026-06-02T09:58:12.401Z"
+    },
+    {
+      "id": 2,
+      "invoice_number": "INV-202606-000002",
+      "client_id": 2,
+      "payment_id": 2,
+      "invoice_type": "part_order",
+      "reference_id": 1,
+      "line_items": [
+        {
+          "description": "Oil Filter ×1",
+          "qty": 1,
+          "unit_price": 1500,
+          "total": 1500
+        }
+      ],
+      "subtotal": "1293.10",
+      "tax_rate": 16,
+      "tax_amount": "206.90",
+      "total_amount": "1500.00",
+      "status": "paid",
+      "issued_at": "2026-06-02T11:26:02.724Z"
+    },
+    {
+      "id": 3,
+      "invoice_number": "INV-202606-000003",
+      "client_id": 2,
+      "payment_id": 3,
+      "invoice_type": "part_order",
+      "reference_id": 5,
+      "line_items": [
+        {
+          "description": "Shock Absorber (Front) ×1",
+          "qty": 1,
+          "unit_price": 12000,
+          "total": 12000
+        }
+      ],
+      "subtotal": "10344.83",
+      "tax_rate": 16,
+      "tax_amount": "1655.17",
+      "total_amount": "12000.00",
+      "status": "paid",
+      "issued_at": "2026-06-02T11:26:55.044Z"
+    },
+    {
+      "id": 4,
+      "invoice_number": "INV-202606-000004",
+      "client_id": 2,
+      "payment_id": 4,
+      "invoice_type": "part_order",
+      "reference_id": 1,
+      "line_items": [
+        {
+          "description": "Oil Filter ×1",
+          "qty": 1,
+          "unit_price": 1500,
+          "total": 1500
+        }
+      ],
+      "subtotal": "1293.10",
+      "tax_rate": 16,
+      "tax_amount": "206.90",
+      "total_amount": "1500.00",
+      "status": "paid",
+      "issued_at": "2026-06-02T11:27:17.198Z"
+    },
+    {
+      "id": 5,
+      "invoice_number": "INV-202606-000005",
+      "client_id": 2,
+      "payment_id": 5,
+      "invoice_type": "part_order",
+      "reference_id": 1,
+      "line_items": [
+        {
+          "description": "Oil Filter ×1",
+          "qty": 1,
+          "unit_price": 1500,
+          "total": 1500
+        }
+      ],
+      "subtotal": "1293.10",
+      "tax_rate": 16,
+      "tax_amount": "206.90",
+      "total_amount": "1500.00",
+      "status": "paid",
+      "issued_at": "2026-06-02T11:27:31.008Z"
+    },
+    {
+      "id": 6,
+      "invoice_number": "INV-202606-000006",
+      "client_id": 2,
+      "payment_id": 6,
+      "invoice_type": "part_order",
+      "reference_id": 1,
+      "line_items": [
+        {
+          "description": "Oil Filter ×1",
+          "qty": 1,
+          "unit_price": 1500,
+          "total": 1500
+        }
+      ],
+      "subtotal": "1293.10",
+      "tax_rate": 16,
+      "tax_amount": "206.90",
+      "total_amount": "1500.00",
+      "status": "paid",
+      "issued_at": "2026-06-02T11:27:40.407Z"
+    },
+    {
+      "id": 7,
+      "invoice_number": "INV-202606-000007",
+      "client_id": 2,
+      "payment_id": 7,
+      "invoice_type": "part_order",
+      "reference_id": 2,
+      "line_items": [
+        {
+          "description": "Brake Pads (Front) ×2",
+          "qty": 2,
+          "unit_price": 4500,
+          "total": 9000
+        }
+      ],
+      "subtotal": "7758.62",
+      "tax_rate": 16,
+      "tax_amount": "1241.38",
+      "total_amount": "9000.00",
+      "status": "paid",
+      "issued_at": "2026-06-11T06:51:33.916Z"
+    },
+    {
+      "id": 8,
+      "invoice_number": "INV-202606-000008",
+      "client_id": 2,
+      "payment_id": 8,
+      "invoice_type": "part_order",
+      "reference_id": 5,
+      "line_items": [
+        {
+          "description": "Shock Absorber (Front) ×1",
+          "qty": 1,
+          "unit_price": 12000,
+          "total": 12000
+        }
+      ],
+      "subtotal": "10344.83",
+      "tax_rate": 16,
+      "tax_amount": "1655.17",
+      "total_amount": "12000.00",
+      "status": "paid",
+      "issued_at": "2026-06-12T15:39:48.730Z"
+    }
+  ],
+  "resets": [],
+  "seq": {
+    "clients": 3,
+    "cars": 12,
+    "parts": 6,
+    "appointments": 4,
+    "repairs": 0,
+    "payments": 8,
+    "invoices": 8,
+    "resets": 0,
+    "invNo": 8
+  }
+}
